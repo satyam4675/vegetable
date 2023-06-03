@@ -1,0 +1,1626 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+
+.topheader {
+	width: 100%;
+	height: 50px;	
+	/* display: none; */
+}
+.add {
+	width: 230px;
+	height: 20px;
+	float: left;
+	margin: 5px 0 0 50px; 
+}
+.add p {
+	color: black;
+	float: left;
+	margin: 5px 0 0 2px;
+}
+.mail {
+	width: 330px;
+	height: 40px;
+	float: left;
+	margin: 5px 0 0 60px;
+}
+.mail p {
+	color: black;
+	float: left;
+	margin: 5px 0 0 0;
+}
+.browser {
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin: 15px 20px 0 0;
+}
+.insta {
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin: 15px 20px 0 0;
+}
+.twitter1 {
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin: 15px 20px 0 0;
+}
+.facebook {
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin: 15px 20px 0 0; 
+}
+.lang {
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin: 5px 50px 0 0;
+}
+.lang p {
+	color: black;
+	float: left;
+	margin: 5px 0 0 2px;
+}
+.section1 {
+	position: sticky;
+    background-color: white;
+    padding: 5px;
+    top: 0;
+}
+.box1 {
+	width: 100%;
+	height: 100px;
+}
+.logo {
+	width: 200px;
+	height: 75px;
+	margin: 25px 0 0 50px;
+	float: left;
+}
+.nav1 {
+	width: 430px;
+	height: 50px;
+	float: left;
+	margin: 25px 0 0 150px;
+}
+.about p {
+	float: left;
+	margin: 12px 0 0 30px;
+	color: black;
+	font-size: 15px;
+}
+.home p {
+	float: left;
+	margin: 12px 0 0 5px;
+	color: black;
+	font-size: 15px;
+}
+.shop1 p {
+	float: left;
+	margin: 12px 0 0 30px;
+	color: black;
+	font-size: 15px;
+}
+.news1 p {
+	float: left;
+	margin: 12px 0 0 30px;
+	color: black;
+	font-size: 15px;
+}
+.pages p {
+	float: left;
+	margin: 12px 0 0 30px;
+	color: black;
+	font-size: 15px;
+}
+.contact p {
+	float: left;
+	margin: 12px 0 0 30px;
+	color: black;
+	font-size: 15px;
+}
+.order {
+	background-color: #3dbf4c;
+	width: 140px;
+	height: 50px;
+	float: left;
+	margin: 25px 0 0 50px;
+}
+.order :hover {
+	
+	/* height: 50px;
+	width: 140px; */
+	background-color: rgb(180, 230, 99);
+}
+.order p {
+	float: left;
+	margin: 13px 0 0 20px;
+	color: black;
+	font-size: 15px;
+}
+.search {
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 25px 0 0 50px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.icon {	
+	float: left;	
+	margin:18px 0 0 16px;
+}
+.account {
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 25px 0 0 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.cart {
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 25px 0 0 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.banner {
+	background-color: #FFFDD0;
+	width: 100%;
+	height: 500px;
+}
+.left {
+	background-color: #FFFDD0;
+	width: 600px;
+	height: 440px;
+	float: left;
+	margin: 60px 0 0 100px;
+}
+.information {
+	background-color: #FFFDD0;
+	width: 500px;
+	height: 300px;
+	float: left;
+}
+.information h1 {
+	font-size: 50px;
+}
+.information p {
+	float: left;
+	margin: 12px 0 0 40px;
+	color: black;
+	font-size: 20px;
+}
+.btn {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	background: green;
+	width: 160px;
+	padding: 20px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+}
+.btn:hover, .btn:focus, .btn:active {
+	box-shadow: 0 0 20px rgba(0, 0, 0 , 0.5);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.btn p {
+	font-size: 14px;
+	color: #fff;
+	background-color: green;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.btn a {
+	text-decoration: none;
+}
+.image {
+	background-color: #FFFDD0;
+	height: 400px;
+	width: 500px;
+	float: right;
+	margin: 100px 20px 0 0;
+}
+.fixed {
+	position: fixed;
+    
+	top: 600px;
+	left: 1250px;
+	width: 50px;
+	height: 15px;
+}
+.image img {
+	height: 400px;
+	width: 500px;
+}
+.box2 {
+	width: 100%;
+	height: 150px;
+}
+.shipping {
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin: 25px 0 0 100px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.shipping img {
+	float: left;
+	margin: 20px 0 0 5px;
+}
+.shipping h1 {
+	font-size: 25px;
+	margin: 20px 43px 0 0;
+	float: right;
+}
+.shipping p {
+	color: black;
+	font-size: 18px;
+	float: right;
+}
+.return {
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin: 25px 0 0 50px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.return img {
+	float: left;
+	margin: 20px 0 0 5px;
+}
+.return h1 {
+	font-size: 25px;
+	margin: 20px 10px 0 0;
+	float: right;
+}
+.return p {
+	color: black;
+	font-size: 18px;
+	float: right;
+}
+.checkout {
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin: 25px 0 0 50px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.checkout img {
+	float: left;
+	margin: 20px 0 0 5px;
+}
+.checkout h1 {
+	font-size: 25px;
+	margin: 20px 0 0 0;
+	float: right;
+}
+.checkout p {
+	color: black;
+	font-size: 18px;
+	float: right;
+	margin: 0 28px 0 0;
+}
+.offers {
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin: 25px 0 0 50px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.offers img {
+	float: left;
+	margin: 20px 0 0 5px;
+}
+.offers h1 {
+	font-size: 25px;
+	margin: 20px 0 0 0;
+	float: right;
+}
+.offers p {
+	color: black;
+	font-size: 18px;
+	float: right;
+	margin: 0 37px 0 0;
+}
+.box3 {
+	width: 100%;
+	height: 800px;
+}
+.crop {
+	width: 200px;
+	height: 500px;
+	float: left;
+	margin: 100px 0 0 70px;
+}
+.shop {
+	width: 600px;
+	height: 420px;
+	float: right;
+	margin: 140px 0 0 70px;
+}
+.shop p {
+	color: #55DD33;
+	font-size: 15px;
+}
+.shop h1 {
+	font-size: 60px;
+}
+.shop h2 {
+	font-size: 18px;
+	margin: 0 0 0 50px;
+}
+.shop h3 {
+	color: black;
+	font-size: 20px;
+	line-height: 30px;
+}
+.shop h4 {
+	float: left;
+}
+.sign img {
+	float: right;
+	margin: 10px 350px 0 0;
+}
+.box4 {
+	background-color: #006400;
+	width: 100%;
+	height: 600px;
+}
+.top {
+	width: 370px;
+	height: 100px;
+	float: left;
+	margin: 100px 0 0 480px;
+}
+.top h1 {
+	color: white;
+	font-size: 60px;
+}
+.box5 {
+	width: 100%;
+	height: 400px;
+	float: left;
+}
+.browse {
+	background-color: white;
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin: 50px 0 0 130px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.text {
+	transform: translate(-0px, -70px);
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	float: left;
+}
+.image1 {
+	height: 180px;
+	width: 250px;
+	float: left;
+	margin: 40px 0 0 75px;
+}
+.vegetable {
+	background-color: white;
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin: 50px 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.text2 {
+	transform: translate(-0px, -70px);
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	float: left;
+}
+.fruits {
+	background-color: white;
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin: 50px 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.text3 {
+	transform: translate(-0px, -70px);
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	float: left;
+}
+.meat {
+	background-color: white;
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin: 50px 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.text4 {
+	transform: translate(-0px, -70px);
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	float: left;
+}
+.box6 {
+	width: 100%;
+	height: 1200px;
+}
+.box7 {
+	width: 100%;
+	height: 150px;
+}
+.our {
+	width: 400px;
+	height: 100px;
+	float: left;
+	margin: 25px 0 0 470px;
+}
+.our h1 {
+	font-size: 70px;
+}
+.nav3 {
+	width: 100%;
+	height: 40px;
+}
+.food {
+	height: 40px;
+    width: 200px;
+    float: left;
+	margin: 0 0 0 80px;
+}
+.food h1 {
+	font-size: 20px;
+	float: left;
+	margin: 8px 0 0 25px;
+}
+.veg {
+	height: 40px;
+    width: 200px;
+    float: left;
+	margin: 0 0 0 50px;
+}
+.veg h1 {
+	font-size: 20px;
+	float: left;
+	margin: 8px 0 0 40px;
+}
+.dried {
+	height: 40px;
+    width: 200px;
+    float: left;
+	margin: 0 0 0 50px;
+}
+.dried h1 {
+	font-size: 20px;
+	float: left;
+	margin: 8px 0 0 25px;
+}
+.bred {
+	height: 40px;
+    width: 200px;
+    float: left;
+	margin: 0 0 0 50px;
+}
+.bred h1 {
+	font-size: 20px;
+	float: left;
+	margin: 8px 0 0 25px;
+}
+.fish {
+	height: 40px;
+    width: 200px;
+    float: left;
+	margin: 0 0 0 50px;
+}
+.fish h1 {
+	font-size: 20px;
+	float: left;
+	margin: 8px 0 0 25px;
+}
+.product {
+	height: 440px;
+	width: 100%;
+}
+.card1 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 40px 0 0 130px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img1 {
+	height: 300px;
+	width: 100%;
+}
+.text1 {
+	height: 100px;
+	width: 100%;
+}
+.text1 h1{
+	color: orange;
+	font-size: 19px;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text1 h4 {
+	color: green;
+	font-size: 15px;
+	float: right;
+	margin: 17px 60px 0 0;
+}
+.text1 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	line-height: 15px;
+	float: left;
+	margin: 5px 0 0 53px;
+}
+.text1 h3 {
+	color: green;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text1 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.card2 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 40px 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img2 {
+	height: 300px;
+	width: 100%;
+}
+.text5 {
+	height: 100px;
+	width: 100%;
+}
+.text5 h1{
+	color: orange;
+	font-size: 19px;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text5 h4 {
+	color: green;
+	font-size: 15px;
+	float: right;
+	margin: 17px 60px 0 0;
+}
+.text5 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	line-height: 15px;
+	float: left;
+	margin: 5px 0 0 53px;
+}
+.text5 h3 {
+	color: green;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text5 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.card3 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 40px 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img3 {
+	height: 300px;
+	width: 100%;
+}
+.text6 {
+	height: 100px;
+	width: 100%;
+}
+.text6 h1{
+	color: orange;
+	font-size: 17px;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+.text6 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+.text6 h3 {
+	color: green;
+	float: left;
+	margin: 5px 0 0 60px;
+}
+.text6 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 5px 50px 0 0;
+}
+.card4 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 40px 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img4 {
+	height: 300px;
+	width: 100%;
+}
+.text7 {
+	height: 100px;
+	width: 100%;
+}
+.text7 h1{
+	color: orange;
+	font-size: 17px;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+.text7 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+.text7 h3 {
+	color: green;
+	float: left;
+	margin: 5px 0 0 60px;
+}
+.text7 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 5px 50px 0 0;
+}
+.product2 {
+	height: 430px;
+	width: 100%;
+	margin: 40px 0 0 0;
+}
+.card5 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 130px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img5 {
+	background-color: red;
+	height: 300px;
+	width: 100%;
+}
+.text9 {
+	height: 100px;
+	width: 100%;
+}
+.text9 h1{
+	color: orange;
+	font-size: 17px;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+.text9 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+.text9 h3 {
+	color: green;
+	float: left;
+	margin: 5px 0 0 60px;
+}
+.text9 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 5px 50px 0 0;
+}
+.card6 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img6 {
+	background-color: red;
+	height: 300px;
+	width: 100%;
+}
+.text8 {
+	height: 100px;
+	width: 100%;
+}
+.text8 h1{
+	color: orange;
+	font-size: 17px;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+.text8 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+.text8 h3 {
+	color: green;
+	float: left;
+	margin: 5px 0 0 50px;
+}
+.text8 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 5px 40px 0 0;
+}
+.card7 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img7 {
+	background-color: red;
+	height: 300px;
+	width: 100%;
+}
+.card8 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img8 {
+	background-color: red;
+	height: 300px;
+	width: 100%;
+}
+.text10 {
+	height: 100px;
+	width: 100%;
+}
+.text10 h1{
+	color: orange;
+	font-size: 19px;
+	text-align: center;
+	margin: 10px 0 0 70px;
+	float: left;
+}
+.text10 h4 {
+	color: green;
+	font-size: 15px;
+	float: right;
+	margin: 17px 50px 0 0;
+}
+.text10 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	line-height: 15px;
+	float: left;
+	margin: 5px 0 0 53px;
+}
+.text10 h3 {
+	color: green;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text10 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.text11 {
+	height: 100px;
+	width: 100%;
+}
+.text11 h1{
+	color: orange;
+	font-size: 19px;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+.text11 h4 {
+	color: green;
+	font-size: 15px;
+	float: right;
+	margin: 17px 60px 0 0;
+}
+.text11 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	line-height: 15px;
+	float: left;
+	margin: 5px 0 0 53px;
+}
+.text11 h3 {
+	color: green;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text11 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.box8 {
+	width: 100%;
+}
+.active {
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin: 140px 0 0 110px;
+}
+.active img {
+	float: left;
+	margin: 1px 0 0 65px;
+}
+.active h1 {
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+.active h2 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+.coffee {
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin: 140px 0 0 100px;
+}
+.coffee img {
+	float: left;
+	margin: 5px 0 0 65px;
+}
+.coffee h1 {
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+.coffee h2 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+.get {
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin: 140px 0 0 100px;
+}
+.get img {
+	float: left;
+	margin: 5px 0 0 65px;
+}
+.get h1 {
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+.get h2 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+.country {
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin: 140px 0 0 100px;
+}
+.country img {
+	float: left;
+	margin: 5px 0 0 65px;
+}
+.country h1 {
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+.country h2 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+.box9 {
+	height: 1150px;
+	width: 100%;
+}
+.box11 {
+	width: 100%;
+	height: 80px;
+	float: left;
+	margin: 50px 0 0 0;
+}
+.featured {
+	height: 80px;
+	width: 600px;
+	float: left;
+	margin: 0 0 0 400px;
+}
+.featured h1 {
+	font-size: 70px;
+}
+.product3 {
+	height: 440px;
+	width: 100%;
+    margin: 40px 0 0 0;
+	float: left;
+}
+.card11 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 40px 0 0 130px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img11 {
+	height: 300px;
+	width: 100%;
+}
+.card22 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 40px 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img22 {
+	height: 300px;
+	width: 100%;
+}
+.img22 img {
+	background-color: white;
+}
+.card33 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 40px 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img33 {
+	height: 300px;
+	width: 100%;
+}
+.text66 h1 {
+	color: orange;
+	font-size: 19px;
+	text-align: center;
+	margin: 10px 0 0 70px;
+	float: left;
+}
+.text66 h4 {
+	color: green;
+	font-size: 15px;
+	float: right;
+	margin: 17px 50px 0 0;
+}
+.text66 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	line-height: 15px;
+	float: left;
+	margin: 5px 0 0 53px;
+}
+.text66 h3 {
+	color: green;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text66 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.card44 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 40px 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img44 {
+	height: 300px;
+	width: 100%;
+}
+.text77 h1 {
+    color: orange;
+	font-size: 19px;
+	text-align: center;
+	margin: 10px 0 0 70px;
+	float: left;
+}
+.text77 h4 {
+	color: green;
+	font-size: 15px;
+	float: right;
+	margin: 17px 50px 0 0;
+}
+.text77 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	line-height: 15px;
+	float: left;
+	margin: 5px 0 0 65px;
+}
+.text77 h3 {
+	color: green;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text77 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.product4 {
+	height: 440px;
+	width: 100%;
+    margin: 40px 0 0 0;
+	float: left;
+}
+.card55 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 130px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img55 {
+	background-color: white;
+	height: 300px;
+	width: 100%;
+}
+.card66 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img66 {
+	height: 300px;
+	width: 100%;
+}
+.card77 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img77 {
+	height: 300px;
+	width: 100%;
+}
+.card88 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img88 {
+	height: 300px;
+	width: 100%;
+}
+.box12 {
+	height: 300px;
+	width: 100%;
+}
+.vegetable2 {
+	height: 300px;
+	width: 400px;
+	float: left;
+	margin: 50px 0 0 50px;
+}
+.ques {
+	height: 25px;
+	width: 250px;
+	float: left;
+	margin: 70px 0 0 90px;
+}
+.ques h1 {
+	color: green;
+}
+.number {
+	transform: translate(-300px, 90px);
+    height: 60px;
+    width: 390px;
+    float: left;
+}
+.number h1 {
+	color: white;
+	font-size: 50px;
+}
+.order1 {
+	transform: translate(-320px, 140px);
+	background-color: green;
+	float: left;
+	height: 40px;
+	width: 180px;
+	text-align: center;
+	padding: 22px 0 0 0;
+}
+.order2 {
+	transform: translate(-296px, 140px);
+	background-color: green;
+	float: left;
+	height: 40px;
+	width: 180px;
+	text-align: center;
+	padding: 22px 0 0 0;
+}
+.person2 {
+	height: 399px;
+	width: 350px;
+	float: right;
+	transform: translate(0, -121px);
+	
+}
+.box13 {
+	height: 800px;
+	width: 100%;
+}
+.box14 {
+	height: 75px;
+	width: 100%;
+	float: left;
+	margin:0 0 0 0; 
+}
+.vlog {
+	height: 75px;
+	width: 300px;
+	float: left;
+	margin: 0 0 0 500px;
+}
+.vlog h1 {
+	font-size: 55px;
+}
+.product5 {
+	height: 500px;
+	width: 100%;
+	float: left;
+	margin: 40px 0 0 0;
+}
+.card111 {
+	height: 500px;
+	width: 350px;
+	float: left;
+	margin: 0 0 0 80px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img111 {
+	width: 100%;
+	height: 250px;
+}
+.text13 {
+	height: 170px;
+	width: 100%;
+	float: left;
+}
+.text13 h1 {
+	float: left;
+	margin: 30px 0 0 30px;
+}
+.text13 h2 {
+	float: left;
+	margin: 30px 0 0 50px;
+}
+.text13 p {
+	font-size: 30px;
+	float: left;
+	color: black;
+	margin: 20px 0 0 30px;
+}
+.date {
+	width: 100%;
+	height: 80px;
+	float: left;
+}
+.date h1 {
+	float: left;
+	padding: 20px; 
+}
+.date h2 {
+	float: right;
+	padding: 20px;
+	color: green;
+}
+.card222 {
+	height: 500px;
+	width: 350px;
+	float: left;
+	margin: 0 0 0 70px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img222 {
+	width: 100%;
+	height: 250px;
+}
+.date2 {
+	width: 100%;
+	height: 80px;
+	float: left;
+	margin: 170px 0 0 0;
+}
+.card333 {
+	height: 500px;
+	width: 350px;
+	float: left;
+	margin: 0 0 0 70px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img333 {
+	width: 100%;
+	height: 250px;
+}
+.date3 {
+	width: 100%;
+	height: 80px;
+	float: left;
+	margin: 170px 0 0 0;
+}
+.box16 {
+	height: 250px;
+	width: 100%;
+}
+.card1111 {
+	width: 305.5px;
+	height: 150px;
+	float: left;
+	margin: 30px 0 0 25px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.card1111 img {
+	float: left;
+	margin: 40px 0 0 20px;
+}
+.card1111 h1 {
+	float: left;
+	margin: 20px 0 0 20px;
+	font-size: 25px;
+}
+.card1111 h2 {
+	float: left;
+	margin: 10px 0 0 20px;
+}
+.card2222 {
+	background-color: white;
+	width: 305.5px;
+	height: 150px;
+	float: left;
+	margin: 50px 0 0 5px;
+}
+.card3333 {
+	background-color: aqua;
+	width: 312.5px;
+	height: 150px;
+	float: left;
+	margin: 50px 0 0 5px;
+}
+.card4444 {
+	background-color: aqua;
+	width: 312.5px;
+	height: 150px;
+	float: left;
+	margin: 50px 0 0 5px;
+}
+.footer {
+	background-color: #052104;
+	width: 100%;
+	height: 470px;
+}
+
+.logo-footer {
+	width:350px;
+	height:400px;
+	background-color:#052104;
+	float:left;
+	margin: 30px 0 0 45px;
+}
+
+.company {
+	width: 160px;
+	height: 400px;
+	background-color: #052104;
+	float:left;
+	margin: 30px 0 0 20px;
+}
+
+.service{
+	width:150px;
+	height:400px;
+	background-color:#052104;
+	float:left;
+	margin: 30px 0 0 2px;
+}
+
+.customer{
+	width:200px;
+	height:400px;
+	background-color: #052104;
+	float:left;
+	margin: 30px 0 0 25px;
+}
+
+.news {
+	width: 330px;
+	height: 400px;
+	background-color:#052104;
+	float:left;
+	margin: 30px 0 0 15px;
+}
+.logo-footer ul {
+	background-color: #052104;
+	width: 300px;
+	height: 190px;
+	float: left;
+	margin: 10px 0 0 0;
+	color: white;
+	list-style: none;
+	line-height: 200%;
+	font-size: 18px;
+}
+.logo-footer h1 {
+	color: white;
+	font-size: 45px;
+}
+p {
+	color: white;
+	line-height: 150%;
+	font-size: 20px;
+}
+.company ul {
+	background-color: #052104;
+	width: 150px;
+	height: 350px;
+	float: left;
+	margin: 10px 0 0 0;
+	color: white;
+	list-style: none;
+	line-height: 250%;
+	font-size: 18px;
+}
+h3 {
+	font-size: 22px;
+	color: white;
+	margin: 5px 0 0 0;
+}
+.service ul {
+	background-color: #052104;
+	width: 150px;
+	height: 350px;
+	float: left;
+	margin: 10px 0 0 0;
+	color: white;
+	list-style: none;
+	line-height: 250%;
+	font-size: 18px;
+}
+.customer ul {
+	background-color: #052104;
+	width: 150px;
+	height: 350px;
+	float: left;
+	margin: 10px 0 0 0;
+	color: white;
+	list-style: none;
+	line-height: 250%;
+	font-size: 18px;
+}
+#email {
+	height: 70px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 5px;
+	border-radius: 5px;
+}
+.payment {
+	float: left;
+}
+.payment ul {
+	background-color: #052104;
+	width: 100px;
+	height: 40px;
+	float: left;
+	margin: 10px 0 0 0;
+	color: white;
+	list-style: none;
+	line-height: 250%;
+	font-size: 18px;
+}
+.img1111 {
+	height: 42px;
+	width: 330px;
+}
+.img1111 img {
+	width: 100%;
+	height: 100%;
+}
+#btn {
+	height: 75px;
+	width: 60px;
+	border-radius: 5px;
+	background-color: lightgreen;
+	padding: 3px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;font-family: "Roboto", sans-serif;
+}
+#btn:hover, #btn:focus, #btn:active {
+	box-shadow: 0 0 20px rgba(0, 0, 0 , 0.5);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.box15 {
+	background-color: #134f1b;
+	height: 100px;
+	width: 100%;
+}
+.box15 h1 {
+	font-size: 20px;
+	float: left;
+	margin: 40px 0 0 30px;
+	color: white;
+}
+.box15 h4 {
+	color:#67c5c1ba;
+	font-size: 20px;
+	float: left;
+	margin: 40px 0 0 6px;
+}
+.box15 h2 {
+	font-size: 20px;
+	float: left;
+	margin: 40px 0 0 6px;
+	color: white;
+	
+}
+.terms-con p {
+	color: white;
+	float: right;
+	margin: 40px 20px 0 0;
+	font-size: 14px;
+}
+.conditionss p {
+	color: white;
+	float: right;
+	margin: 40px 20px 0 0;
+	font-size: 14px;
+}
+.one p {
+	color: white;
+	float: right;
+	margin: 40px 20px 0 0;
+	font-size: 14px;
+}
+.facebook1 {
+	height: 20px;
+	width: 20px;
+	float: left;
+}
+.twitter {
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.linke {
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.yt {
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+
+/* Now lets start with the Resposive Codes */
+
+
+@media (max-width: 767px) {
+	.add .mail .browser .insta .twitter1 .facebook .lang {
+    padding: 5px 0;
+    text-align: center;
+	}
+}
+@media (max-width: 767px) {
+	body {
+    font-size: 14px;
+	}
+}

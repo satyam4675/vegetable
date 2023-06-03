@@ -1,0 +1,1573 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* .full-width {
+    background-color: blue;
+    width: 100%;
+}
+.container {
+    background-color: green;
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav {
+    background-color: gray;
+    width: 100%;
+    height: 15px;
+} */
+.section1 {
+	position: sticky;
+    background-color: white;
+    padding: 0;
+    top: 0;
+}
+.box1 {
+    background-color: rgb(9, 41, 9);
+	width: 100%;
+	height: 100px;
+}
+.logo {
+	width: 200px;
+	height: 75px;
+	margin: 25px 0 0 50px;
+	float: left;
+}
+.nav1 {
+	width: 430px;
+	height: 50px;
+	float: left;
+	margin: 25px 0 0 150px;
+}
+.about p {
+	float: left;
+	margin: 12px 0 0 30px;
+	color: white;
+	font-size: 15px;
+}
+.home p {
+	float: left;
+	margin: 12px 0 0 5px;
+	color: white;
+	font-size: 15px;
+}
+.shop1 p {
+	float: left;
+	margin: 12px 0 0 30px;
+	color: white;
+	font-size: 15px;
+}
+.news1 p {
+	float: left;
+	margin: 12px 0 0 30px;
+	color: white;
+	font-size: 15px;
+}
+.pages p {
+	float: left;
+	margin: 12px 0 0 30px;
+	color: white;
+	font-size: 15px;
+}
+.contact p {
+	float: left;
+	margin: 12px 0 0 30px;
+	color: white;
+	font-size: 15px;
+}
+.order {
+	background-color: #3dbf4c;
+	width: 140px;
+	height: 50px;
+	float: left;
+	margin: 25px 0 0 50px;
+}
+.order :hover {
+	
+	/* height: 50px;
+	width: 140px; */
+	background-color: rgb(180, 230, 99);
+}
+.order p {
+	float: left;
+	margin: 13px 0 0 20px;
+	color: black;
+	font-size: 15px;
+}
+.search {
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 25px 0 0 50px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.icon {	
+	float: left;	
+	margin:18px 0 0 16px;
+}
+.account {
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 25px 0 0 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.cart {
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 25px 0 0 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.banner {
+    background-color: rgb(9, 41, 9);
+    width: 100%;
+    height: 350px;
+}
+.well p {
+    color: palegreen;
+    font-weight: bold;
+    float: left;
+    margin: 150px 0 0 100px;
+}
+.well h1 {
+    color: whitesmoke;
+    font-size: 70px;
+    font-weight: bold;
+    float: left;
+    margin: 170px 0 0 -300px;
+}
+.link h1 {
+    color: palegreen;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    margin: 175px 50px 0 0;
+}
+.link p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    margin: 170px 30px 0 0;
+}
+.box23 {
+    background-color: whitesmoke;
+    height: 3400px;
+    width: 100%;
+}
+.top {
+    width: 800px;
+    height: 30px;
+    float: left;
+    margin: 100px 0 0 80px;
+}
+.top h1 {
+    color: green;
+    font-size: 28px;
+    float: left;
+	cursor: pointer;
+}
+.top h2 {
+    font-size: 28px;
+    float: left;
+    margin: 0 0 0 20px;
+	cursor: pointer;
+}
+.top h3 {
+	font-weight: bold;
+    font-size: 22px;
+    float: left;
+	margin: 1px 0 0 150px;
+}
+.top select {
+	font-size: 20px;
+	float: right;
+	height: 30px;
+	width: 250px;
+	cursor: pointer;
+}
+.product3 {
+	height: 400px;
+	width: 800px;
+    margin: 30px 0 0 80px;
+	float: left;
+}
+.card11 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 0;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img11 {
+	height: 300px;
+	width: 100%;
+}
+.card22 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img22 {
+	height: 300px;
+	width: 100%;
+}
+.img22 img {
+	background-color: white;
+}
+.text1 {
+	height: 100px;
+	width: 100%;
+}
+.text1 h1{
+	color: orange;
+	font-size: 19px;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text1 h4 {
+	color: green;
+	font-size: 15px;
+	float: right;
+	margin: 17px 60px 0 0;
+}
+.text1 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	line-height: 15px;
+	float: left;
+	margin: 5px 0 0 53px;
+}
+.text1 h3 {
+	font-size: 24px;
+	color: green;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text1 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.text5 {
+	height: 100px;
+	width: 100%;
+}
+.text5 h1{
+	color: orange;
+	font-size: 19px;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text5 h4 {
+	color: green;
+	font-size: 15px;
+	float: right;
+	margin: 17px 60px 0 0;
+}
+.text5 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	line-height: 15px;
+	float: left;
+	margin: 5px 0 0 53px;
+}
+.text5 h3 {
+	font-size: 24px;
+	color: green;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text5 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.card33 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img33 {
+	height: 300px;
+	width: 100%;
+}
+.text66 {
+	height: 100px;
+	width: 100%;
+}
+.text66 h1{
+	color: orange;
+	font-size: 17px;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+.text66 h4 {
+	color: green;
+	float: right;
+	margin: -20px 50px 0 0;
+}
+.text66 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+.text66 h3 {
+	font-size: 24px;
+	color: green;
+	float: left;
+	margin: 5px 0 0 60px;
+}
+.text66 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 5px 50px 0 0;
+}
+.product8 {
+	height: 400px;
+	width: 800px;
+	float: left;
+	margin: 30px 0 0 0;
+}
+.card44 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img44 {
+	background-color: red;
+	height: 300px;
+	width: 100%;
+}
+.text77 {
+	height: 100px;
+	width: 100%;
+}
+.text77 h1{
+	color: orange;
+	font-size: 17px;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+.text77 h4 {
+	color: green;
+	float: right;
+	margin: -20px 50px 0 0;
+}
+.text77 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+.text77 h3 {
+	font-size: 24px;
+	color: green;
+	float: left;
+	margin: 5px 0 0 60px;
+}
+.text77 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 5px 50px 0 0;
+}
+.card55 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img55 {
+	background-color: white;
+	height: 300px;
+	width: 100%;
+}
+.card66 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img66 {
+	height: 300px;
+	width: 100%;
+}
+.card77 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img77 {
+	height: 300px;
+	width: 100%;
+}
+.card88 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img88 {
+	height: 300px;
+	width: 100%;
+}
+.text8 {
+	height: 100px;
+	width: 100%;
+}
+.text8 h1{
+	color: orange;
+	font-size: 17px;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+.text8 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+.text8 h3 {
+	font-size: 24px;
+	color: green;
+	float: left;
+	margin: 5px 0 0 50px;
+}
+.text8 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 5px 40px 0 0;
+}
+.product9 {
+	height: 400px;
+	width: 800px;
+	float: left;
+	margin: 460px 0 0 80px;
+}
+.card6 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img6 {
+	background-color: red;
+	height: 300px;
+	width: 100%;
+}
+.text8 {
+	height: 100px;
+	width: 100%;
+}
+.text8 h1{
+	color: orange;
+	font-size: 17px;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+.text8 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+.text8 h3 {
+	color: green;
+	float: left;
+	margin: 5px 0 0 50px;
+}
+.text8 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 5px 40px 0 0;
+}
+.card5 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 0;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img5 {
+	background-color: red;
+	height: 300px;
+	width: 100%;
+}
+.text9 {
+	height: 100px;
+	width: 100%;
+}
+.text9 h1{
+	color: orange;
+	font-size: 17px;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+.text9 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+.text9 h3 {
+	color: green;
+	float: left;
+	margin: 5px 0 0 60px;
+}
+.text9 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 5px 50px 0 0;
+}
+.card7 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img7 {
+	background-color: red;
+	height: 300px;
+	width: 100%;
+}
+.card8 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img8 {
+	background-color: red;
+	height: 300px;
+	width: 100%;
+}
+.text10 {
+	height: 100px;
+	width: 100%;
+}
+.text10 h1{
+	color: orange;
+	font-size: 19px;
+	text-align: center;
+	margin: 10px 0 0 70px;
+	float: left;
+}
+.text10 h4 {
+	color: green;
+	font-size: 15px;
+	float: right;
+	margin: 17px 50px 0 0;
+}
+.text10 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	line-height: 15px;
+	float: left;
+	margin: 5px 0 0 53px;
+}
+.text10 h3 {
+	color: green;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text10 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.product12 {
+	height: 400px;
+	width: 800px;
+	float: left;
+	margin: 30px 0 0 0;
+}
+.card12 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img12 {
+	background-color: red;
+	height: 300px;
+	width: 100%;
+}
+.text11 {
+	height: 100px;
+	width: 100%;
+}
+.text11 h1{
+	color: orange;
+	font-size: 19px;
+	text-align: center;
+	margin: 10px 0 0 70px;
+	float: left;
+}
+.text11 h4 {
+	color: green;
+	font-size: 15px;
+	float: right;
+	margin: 17px 50px 0 0;
+}
+.text11 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	line-height: 15px;
+	float: left;
+	margin: 5px 0 0 53px;
+}
+.text11 h3 {
+	color: green;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text11 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.card1 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img1 {
+	height: 300px;
+	width: 100%;
+}
+.text1 {
+	height: 100px;
+	width: 100%;
+}
+.text1 h1{
+	color: orange;
+	font-size: 19px;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text1 h4 {
+	color: green;
+	font-size: 15px;
+	float: right;
+	margin: 17px 60px 0 0;
+}
+.text1 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	line-height: 15px;
+	float: left;
+	margin: 5px 0 0 53px;
+}
+.text1 h3 {
+	color: green;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text1 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.card2 {
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.img2 {
+	height: 300px;
+	width: 100%;
+}
+.text5 {
+	height: 100px;
+	width: 100%;
+}
+.text5 h1{
+	color: orange;
+	font-size: 19px;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text5 h4 {
+	color: green;
+	font-size: 15px;
+	float: right;
+	margin: 17px 60px 0 0;
+}
+.text5 p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	line-height: 15px;
+	float: left;
+	margin: 5px 0 0 53px;
+}
+.text5 h3 {
+	color: green;
+	float: left;
+	margin: 10px 0 0 60px;
+}
+.text5 del {
+	color: seagreen;
+	font-size: 24px;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.product13 {
+	height: 400px;
+	width: 800px;
+	float: left;
+	margin: 30px 0 0 0;
+}
+.product14 {
+	height: 400px;
+	width: 800px;
+	float: left;
+	margin: 30px 0 0 0;
+}
+.product15 {
+	width: 800px;
+	height: 400px;
+	float: left;
+	margin: 30px 0 0 0;
+}
+.down {
+	height: 55px;
+	width: 800px;
+	float: left;
+	margin: 1800px 0 0 80px;
+}
+.arrow {
+	border: 1px solid black;
+	font-size: 20px;
+	float: left;
+	padding: 10px;
+	margin: 0 0 0 170px;
+	height: 33px;
+	cursor: pointer;
+}
+.arrow h1 {
+	float: left;
+	margin: 7px 0 0 0px;
+}
+.one {
+	border: 1px solid black;
+	font-size: 20px;
+	float: left;
+	padding: 15px;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+}
+.two {
+	border: 1px solid black;
+	font-size: 20px;
+	float: left;
+	padding: 15px;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+}
+.three {
+	border: 1px solid black;
+	font-size: 20px;
+	float: left;
+	padding: 15px;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+}
+.das {
+	border: 1px solid black;
+	font-size: 20px;
+	float: left;
+	padding: 15px;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+}
+.ten {
+	border: 1px solid black;
+	font-size: 20px;
+	float: left;
+	padding: 15px;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+}
+.arrow2 {
+	border: 1px solid black;
+	font-size: 20px;
+	float: left;
+	padding: 10px;
+	margin: 0 0 0 20px;
+	height: 33px;
+	cursor: pointer;
+}
+.arrow2 h1 {
+	float: left;
+	margin: 7px 0 0 0px;
+}
+.right {
+	height: 2830px;
+	width: 390px;
+	float: right;
+	margin: -1260px 10px 0 0;
+}
+.cate {
+	height: 350px;
+	width: 380px;
+	float: left;
+	border: 2px solid black;
+}
+.cate h1 {
+	font-size: 25px;
+	margin: 30px 0 0 30px;
+	font-weight: bold;
+}
+.cate h2 {
+	margin: 30px 0 0 30px;
+	line-height: 32px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.filter {
+	height: 250px;
+	width: 380px;
+	float: left;
+	margin: 40px 0 0 0;
+	border: 2px solid black;
+}
+.filter h1 {
+	font-size: 25px;
+	margin: 30px 0 0 30px;
+	font-weight: bold;
+}
+.filter h2 {
+	font-size: 20px;
+	float: left;
+	margin: 30px 0 0 30px;
+}
+.filter h3 {
+	font-size: 23px;
+	float: left;
+	margin: 30px 0 0 30px;
+	font-weight: bold;
+}
+.range {
+	height: 30px;
+	width: 100%;
+	float: left;
+	margin: 30px 0 0 0;
+}
+.range h4 {
+	color: chocolate;
+	float: left;
+	width: 315px;
+	margin: 0 0 0 30px;
+}
+.circle1 {
+	background-color: green;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	float: left;
+	margin: -25px 0 0 28px;
+}
+.circle2 {
+	background-color: green;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	float: right;
+	margin: -25px 230px 0 0;
+}
+.rated {
+	border: 2px solid black;
+	height: 450px;
+	width: 380px;
+	float: left;
+	margin: 40px 0 0 0;
+}
+.rated h1 {
+	font-size: 25px;
+	float: left;
+	margin: 30px 0 0 30px;
+	font-weight: bold;
+}
+.fruits {
+	height: 380px;
+	width: 320px;
+	float: left;
+	margin: 30px 0 0 30px;
+}
+.fruits img {
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+.fruits h1 {
+	color: orange;
+	float: left;
+	margin: 5px 10px 0 10px;
+	font-size: 20px;
+}
+.fruits p {
+	font-weight: bold;
+	float: left;
+	margin: 8px 0 0 10px;
+}
+.fruits h2 {
+	color: green;
+	font-size: 17px;
+	float: left;
+	margin: 8px 0 0 10px;
+	font-weight: bold;
+}
+.fruits del {
+	color: green;
+	font-size: 17px;
+	float: left;
+	margin: 8px 0 0 10px;
+}
+.fruits hr {
+	float: left;
+	width: 100%;
+}
+.two2 img {
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+.two2 h1 {
+	color: orange;
+	float: left;
+	margin: 5px 10px 0 10px;
+	font-size: 20px;
+}
+.two2 p {
+	font-weight: bold;
+	float: left;
+	margin: 8px 0 0 10px;
+}
+.two2 h2 {
+	color: green;
+	font-size: 17px;
+	float: left;
+	margin: 30px 0 0 -115px;
+	font-weight: bold;
+}
+.two2 del {
+	color: green;
+	font-size: 17px;
+	float: left;
+	margin: 30px 0 0 -55px;
+}
+.two2 hr {
+	float: left;
+	width: 100%;
+}
+.objects {
+	border: 2px solid black;
+	height: 200px;
+	width: 380px;
+	float: left;
+	margin: 40px 0 0 0;
+}
+.objects h1 {
+	font-size: 25px;
+	font-weight: bold;
+	float: left;
+	margin: 30px 0 0 30px;
+}
+#email1 {
+	height: 50px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 5px;
+	float: left;
+	margin: 40px 0 0 30px;
+}
+#btn1 {
+	margin: 40px 0 0 0;
+	height: 55px;
+	width: 60px;
+	border-radius: 5px;
+	background-color: lightgreen;
+	padding: 3px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;font-family: "Roboto", sans-serif;
+}
+#btn1:hover, #btn1:focus, #btn1:active {
+	box-shadow: 0 0 20px rgba(0, 0, 0 , 0.5);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.pop {
+	border: 2px solid black;
+	width: 380px;
+	height: 400px;
+	float: left;
+	margin: 30px 0 0 0;
+}
+.pop h1 {
+	font-size: 25px;
+	font-weight: bold;
+	float: left;
+	margin: 30px 0 0 30px;
+}
+.topic {
+	height: 300px;
+	width: 330px;
+	float: left;
+	margin: 11px 0 0 21px;
+}
+.topic li {
+	background-color: bisque;
+	float: left;
+	font-size: 15PX;
+	margin: 9px 0 0 9px;
+	padding: 15px;
+	font-weight: normal;
+	list-style: none;
+	cursor: pointer;
+}
+.size {
+	border: 2px solid black;
+	height: 250px;
+	width: 380px;
+	float: left;
+	margin: 30px 0 0 0;
+}
+.size h1 {
+	font-size: 25px;
+	font-weight: bold;
+	float: left;
+	margin: 30px 0 0 30px;
+}
+.topic2 {
+	height: 150px;
+	width: 300px;
+	float: left;
+	margin: 11px 0 0  21px;
+}
+.size li {
+	background-color: bisque;
+	float: left;
+	font-size: 15PX;
+	margin: 9px 0 0 9px;
+	padding: 20px;
+	font-weight: normal;
+	list-style: none;
+	cursor: pointer;
+}
+.color {
+	border: 2px solid black;
+	height: 300px;
+	width: 380px;
+	float: left;
+	margin: 40px 0 0 0;
+}
+.color h1 {
+	font-size: 25px;
+	font-weight: bold;
+	float: left;
+	margin: 30px 0 0 30px;
+}
+.topic3 {
+	height: 200px;
+	width: 350px;
+	float: left;
+	margin: 20px 0 0  30px;
+}
+.black {
+	background-color: black;
+	height: 30px;
+	width: 60px;
+	float: left;
+	cursor: pointer;
+}
+.white {
+	background-color: white;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 0 0 0 8px;
+	cursor: pointer;
+}
+.red {
+	background-color: red;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 0 0 0 8px;
+	cursor: pointer;
+}
+.gray {
+	background-color: gray;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 0 0 0 8px;
+	cursor: pointer;
+}
+.darkgray {
+	background-color: darkgray;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 0 0 0 8px;
+	cursor: pointer;
+}
+.brow {
+	background-color: brown;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 0;
+	cursor: pointer;
+}
+.yellow {
+	background-color: yellow;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+.pista {
+	background-color: paleturquoise;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+.greenpale {
+	background-color: greenyellow;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+.green {
+	background-color: green;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+.blue {
+	background-color: skyblue;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 0;
+	cursor: pointer;
+}
+.blue2 {
+	background-color: rgb(98, 108, 243);
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+.blue3 {
+	background-color: blue;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+.darkblue {
+	background-color: darkblue;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+.pink {
+	background-color: rgb(219, 73, 219);
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+.purple {
+	background-color: purple;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 0;
+	cursor: pointer;
+}
+.pink2 {
+	background-color: bisque;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+.pink3 {
+	background-color: beige;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+.orange1 {
+	background-color: orange;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+.orange2 {
+	background-color: orange;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+.orange3 {
+	background-color: orange;
+	height: 30px;
+	width: 60px;
+	float: left;
+	margin: 8px 0 0 0;
+	cursor: pointer;
+}
+.green_img img {
+	height: 350px;
+	width: 380px;
+	float: left;
+	margin: 40px 0 0 0;
+	cursor: pointer;
+}
+.box16 {
+	height: 150px;
+	width: 100%;
+	float: left;
+	margin: 50px 0 0 0;
+}
+.card1111 {
+	width: 305.5px;
+	height: 150px;
+	float: left;
+	margin: 30px 0 0 25px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.card1111 img {
+	float: left;
+	margin: 40px 0 0 20px;
+}
+.card1111 h1 {
+	float: left;
+	margin: 20px 0 0 20px;
+	font-size: 25px;
+}
+.card1111 h2 {
+	float: left;
+	margin: 10px 0 0 20px;
+}
+.card2222 {
+	background-color: white;
+	width: 305.5px;
+	height: 150px;
+	float: left;
+	margin: 50px 0 0 5px;
+}
+.card3333 {
+	background-color: aqua;
+	width: 312.5px;
+	height: 150px;
+	float: left;
+	margin: 50px 0 0 5px;
+}
+.card4444 {
+	background-color: aqua;
+	width: 312.5px;
+	height: 150px;
+	float: left;
+	margin: 50px 0 0 5px;
+}
+.footer {
+	background-color: #FFFDD0;
+	width: 100%;
+	height: 470px;
+	float: left;
+	margin: 100px 0 0 0;
+}
+.logo-footer {
+	width:350px;
+	height:400px;
+	background-color:#FFFDD0;
+	float:left;
+	margin: 30px 0 0 45px;
+}
+
+.company {
+	width: 160px;
+	height: 400px;
+	background-color: #FFFDD0;
+	float:left;
+	margin: 30px 0 0 20px;
+}
+
+.service{
+	width:150px;
+	height:400px;
+	background-color:#FFFDD0;
+	float:left;
+	margin: 30px 0 0 2px;
+}
+
+.customer{
+	width:200px;
+	height:400px;
+	background-color: #FFFDD0;
+	float:left;
+	margin: 30px 0 0 25px;
+}
+
+.news {
+	width: 330px;
+	height: 400px;
+	background-color:#FFFDD0;
+	float:left;
+	margin: 30px 0 0 15px;
+}
+.logo-footer ul {
+	background-color: #FFFDD0;
+	width: 300px;
+	height: 190px;
+	float: left;
+	margin: 10px 0 0 0;
+	list-style: none;
+	line-height: 200%;
+	font-size: 18px;
+}
+.logo-footer h1 {
+	font-size: 45px;
+}
+p {
+	line-height: 150%;
+	font-size: 20px;
+}
+.company ul {
+	background-color: #FFFDD0;
+	width: 150px;
+	height: 350px;
+	float: left;
+	margin: 10px 0 0 0;
+	list-style: none;
+	line-height: 250%;
+	font-size: 18px;
+}
+h3 {
+	font-size: 22px;
+	margin: 5px 0 0 0;
+}
+.service ul {
+	background-color: #FFFDD0;
+	width: 150px;
+	height: 350px;
+	float: left;
+	margin: 10px 0 0 0;
+	list-style: none;
+	line-height: 250%;
+	font-size: 18px;
+}
+.customer ul {
+	background-color: #FFFDD0;
+	width: 150px;
+	height: 350px;
+	float: left;
+	margin: 10px 0 0 0;
+	list-style: none;
+	line-height: 250%;
+	font-size: 18px;
+}
+#email {
+	height: 70px;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 5px;
+	border-radius: 5px;
+}
+.payment {
+	float: left;
+}
+.payment ul {
+	width: 100px;
+	height: 40px;
+	float: left;
+	margin: 10px 0 0 0;
+	list-style: none;
+	line-height: 250%;
+	font-size: 18px;
+}
+.img1111 {
+	height: 42px;
+	width: 330px;
+}
+.img1111 img {
+	width: 100%;
+	height: 100%;
+}
+#btn {
+	height: 75px;
+	width: 60px;
+	border-radius: 5px;
+	background-color: lightgreen;
+	padding: 3px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;font-family: "Roboto", sans-serif;
+}
+#btn:hover, #btn:focus, #btn:active {
+	box-shadow: 0 0 20px rgba(0, 0, 0 , 0.5);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.box26 {
+	background-color: #134f1b;
+	height: 100px;
+	width: 100%;
+	float: left;
+}
+.box26 h1 {
+	font-size: 20px;
+	float: left;
+	margin: 40px 0 0 30px;
+	color: white;
+}
+.box26 h4 {
+	color:#67c5c1ba;
+	font-size: 20px;
+	float: left;
+	margin: 40px 0 0 6px;
+}
+.box26 h2 {
+	font-size: 20px;
+	float: left;
+	margin: 40px 0 0 6px;
+	color: white;
+}
+.terms-con p {
+	color: white;
+	float: right;
+	margin: 40px 20px 0 0;
+	font-size: 14px;
+}
+.conditionss p {
+	float: right;
+	margin: 40px 20px 0 0;
+	font-size: 14px;
+}
+.term p {
+	float: right;
+	margin: 40px 20px 0 0;
+	font-size: 14px;
+}
+.facebook1 {
+	height: 20px;
+	width: 20px;
+	float: left;
+}
+.twitter {
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.linke {
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.yt {
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin: 0 0 0 20px;
+}
